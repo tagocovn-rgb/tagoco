@@ -1,53 +1,135 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TAGOCO</title>
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#111;
-    color:white;
-    text-align:center;
-}
-.hero{
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-h1{
-    font-size:64px;
-    margin:0;
-}
-p{
-    font-size:24px;
-    color:#ddd;
-}
-a{
-    margin-top:30px;
-    padding:15px 35px;
-    background:#d4af37;
-    color:black;
-    text-decoration:none;
-    border-radius:10px;
-    font-weight:bold;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TAGOCO - Thương hiệu nón đến từ Gò Công. Trucker cap, baseball cap và các thiết kế mang dấu ấn riêng." />
+  <meta name="theme-color" content="#0f2f26" />
+  <meta property="og:title" content="TAGOCO | Premium Headwear" />
+  <meta property="og:description" content="Nón thiết kế mang dấu ấn Gò Công." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tagoco.vn/" />
+  <title>TAGOCO | Premium Headwear</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"TAGOCO",
+    "url":"https://tagoco.vn",
+    "description":"Thương hiệu nón đến từ Gò Công."
+  }
+  </script>
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TAGOCO">
+      <span class="brand-mark">T</span>
+      <span class="brand-name">TAGOCO</span>
+    </a>
 
-<div class="hero">
-<h1>TAGOCO</h1>
-<p>Premium Headwear</p>
+    <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false">☰</button>
 
-<a href="#">Coming Soon</a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a href="#home">Trang chủ</a>
+      <a href="#products">Bộ sưu tập</a>
+      <a href="#story">Câu chuyện</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+  </header>
 
-</div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">GÒ CÔNG · VIỆT NAM</p>
+        <h1>NÓN ĐẸP.<br />DẤU ẤN RIÊNG.</h1>
+        <p class="hero-copy">
+          TAGOCO tạo ra những mẫu nón dễ đội, hợp khí hậu Việt Nam
+          và mang tinh thần tự tin của người miền Tây.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#products">Xem bộ sưu tập</a>
+          <a class="btn btn-secondary" href="#story">Về TAGOCO</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Hình minh họa sản phẩm">
+        <div class="cap-placeholder">
+          <span>TAGOCO</span>
+          <small>Thay bằng ảnh nón của bạn</small>
+        </div>
+      </div>
+    </section>
 
+    <section class="benefits" aria-label="Điểm nổi bật">
+      <article><strong>FORM DỄ ĐỘI</strong><span>Vừa vặn, thoáng và phù hợp sử dụng hằng ngày.</span></article>
+      <article><strong>THIẾT KẾ RIÊNG</strong><span>Logo và chi tiết nhận diện mang dấu ấn TAGOCO.</span></article>
+      <article><strong>GIAO HÀNG TOÀN QUỐC</strong><span>Đặt hàng nhanh qua TikTok Shop hoặc Shopee.</span></article>
+    </section>
+
+    <section id="products" class="section products-section">
+      <div class="section-heading">
+        <p class="eyebrow">BỘ SƯU TẬP</p>
+        <h2>Mẫu nón nổi bật</h2>
+        <p>Thông tin bên dưới được quản lý trong file <code>content.js</code>, rất dễ thay đổi.</p>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section id="story" class="section story-section">
+      <div class="story-visual">
+        <div class="story-badge">
+          <span>EST.</span>
+          <strong>1992</strong>
+          <small>GÒ CÔNG</small>
+        </div>
+      </div>
+      <div class="story-content">
+        <p class="eyebrow">CÂU CHUYỆN THƯƠNG HIỆU</p>
+        <h2>Từ Gò Công, tạo nên dấu ấn riêng.</h2>
+        <p>
+          TAGOCO được hình thành từ mong muốn tạo ra những chiếc nón đẹp,
+          dễ đội và có bản sắc riêng. Tên gọi TAGOCO gắn với người sáng lập
+          và vùng đất Gò Công.
+        </p>
+        <p>
+          Chúng tôi tập trung vào form nón phù hợp người Việt, chất liệu thoáng,
+          đường may chắc chắn và những thiết kế có thể sử dụng lâu dài.
+        </p>
+      </div>
+    </section>
+
+    <section class="section lookbook-section">
+      <div class="section-heading">
+        <p class="eyebrow">LOOKBOOK</p>
+        <h2>Phong cách TAGOCO</h2>
+      </div>
+      <div class="lookbook-grid">
+        <div class="photo-placeholder">Ảnh lookbook 1</div>
+        <div class="photo-placeholder">Ảnh lookbook 2</div>
+        <div class="photo-placeholder">Ảnh lookbook 3</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">KẾT NỐI</p>
+        <h2>Chọn chiếc nón phù hợp với bạn.</h2>
+        <p>Theo dõi TAGOCO hoặc đặt hàng qua các kênh chính thức.</p>
+      </div>
+      <div id="social-links" class="social-links"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>TAGOCO</strong>
+      <p>Premium Headwear · Gò Công, Việt Nam</p>
+    </div>
+    <p>© <span id="year"></span> TAGOCO. All rights reserved.</p>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

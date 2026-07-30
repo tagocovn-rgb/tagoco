@@ -1,23 +1,19 @@
-# Website TAGOCO
+# TAGOCO V2.2 FINAL
 
-Website tĩnh dùng HTML, CSS và JavaScript, triển khai miễn phí trên Cloudflare Pages.
+Giữ nguyên bố cục và chức năng của TAGOCO V2.1, chỉ hoàn thiện hai khu vực cuối trang.
 
-## Các file cần sửa thường xuyên
+## Đã hoàn thiện
+- Phần Về TAGOCO: nội dung bên trái, logo chim công lớn bên phải
+- Nội dung thương hiệu được viết lại rõ ràng, tự nhiên hơn
+- Gộp khu kết nối mạng xã hội với footer đầy đủ
+- Footer có thương hiệu, khách hàng, liên hệ và bản quyền
+- Tối ưu logo sang WebP để website tải nhẹ hơn
+- Responsive trên điện thoại và máy tính
 
-- `content.js`: tên sản phẩm, giá, mô tả và các đường dẫn mạng xã hội.
-- `index.html`: nội dung giới thiệu, tiêu đề, câu chuyện thương hiệu.
-- `style.css`: màu sắc, kích thước và giao diện.
-- `assets/`: ảnh logo, ảnh nón, ảnh lookbook.
+## Xem thử
+Giải nén và mở `index.html`.
 
-## Thêm ảnh sản phẩm
-
-1. Upload ảnh vào thư mục `assets`.
-2. Trong `content.js`, sửa:
-
-```js
-image: "assets/ten-anh.jpg"
-```
-
-## Cập nhật website
-
-Sau khi sửa file trên GitHub, bấm **Commit changes**. Cloudflare Pages sẽ tự động cập nhật website sau khoảng 1 phút.
+## Cần thay trước khi bán thật
+- Số điện thoại 0900 000 000
+- Email hello@tagoco.vn
+- Các liên kết TikTok Shop, Shopee, Facebook, TikTok và YouTube
